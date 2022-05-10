@@ -1,0 +1,59 @@
+.pure-menu {
+    display: inline-block;
+}
+
+.pure-menu-item {
+    margin-left: 15px;
+    height: auto;
+}
+
+.pure-menu-item-current {
+    /*background-color: black;*/
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    /*color: white;*/
+}
+
+.button-menu {
+    width: 50%;
+    margin-left: 25%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 50%;
+}
+
+.button-login, .button-logout {
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.button-login {
+    background: #0078e7;
+}
+
+.button-logout {
+    background: rgb(202, 60, 60);
+}
+
+
+.heading-forbidden {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    font-size: xx-large;
+}
+
+.heading-allowed {
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    font-size: xx-large;
+}
